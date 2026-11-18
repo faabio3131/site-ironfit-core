@@ -526,3 +526,9 @@ html[data-p=nfcore] .spot-grid { margin-top: 18px; }
   html[data-p=nfcore] .spot-cal li span { font-size: 13px; }
   html[data-p=nfcore] .spot-cal { padding: 16px; }
 }
+
+/* Apresentação oficial do IRON FIT: vídeo somente sob interação do visitante. */
+.iron-video-section .iron-video-frame{aspect-ratio:auto;max-width:980px;margin:36px auto 0;overflow:visible;background:transparent;border:0}
+.iron-video-frame video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;border:1px solid var(--ln);border-radius:18px;background:#000}
+.iron-video-frame figcaption{padding:12px 6px 0;color:var(--mu);text-align:center;font-size:13px}
+@media(max-width:640px){.iron-video-section .iron-video-frame{margin-top:24px}.iron-video-frame video{border-radius:12px}}
